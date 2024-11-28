@@ -1,0 +1,200 @@
+@media only screen and (max-width: 5000px) {
+  .kholieu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    .tracuuDataWHform {
+      display: flex;
+      flex-direction: column;
+      display: flex;
+      width: 230px;
+      align-items: center;
+      background-image: linear-gradient(0deg, #afd3d1, #86cfff);
+      -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+      border-radius: 3px;
+      padding: 5px;
+      font-size: 0.8rem;
+      span {
+        padding: 10px;
+        font-size: 20px;
+        margin: auto;
+      }
+      .forminput {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-around;
+        padding: 2px;
+        font-size: 0.6rem;
+
+        .forminputcolumn {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: flex-end;
+          justify-content: flex-end;
+          flex-wrap: wrap;
+          input {
+            width: 125px;
+            height: 15px;
+            font-size: 0.6rem;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            padding: 5px;
+            margin-left: 5px;
+            background-image: linear-gradient(0deg, #ececec, #9dee95);
+          }
+        }
+      }
+      .formbutton {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 0.7rem;
+        gap: 2px;
+        width: 100%;
+      }
+    }
+    .tracuuWHTable {
+      display: flex;
+      flex: 20;
+      height: 92vh;
+      width: 100%;
+      background-image: linear-gradient(0deg, #afd3d1, #86cfff);
+      -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+      border-radius: 3px;
+    }
+    .nhaplieudiv {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      position: absolute;
+      left:5%;
+      padding: 10px;
+      background-color: #cbe07f;
+      -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.29);
+      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+    }
+    .xuatlieudiv {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      position: absolute;
+      left:5%;
+      padding: 10px;
+      background-color: #e789e3;
+      -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.29);
+      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .kholieu {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .tracuuDataWHform {
+      display: flex;
+      flex-direction: column;
+      display: flex;
+      width: 100%;
+      height: fit-content;
+      align-items: center;
+      background-image: linear-gradient(0deg, #afd3d1, #86cfff);
+      -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+      border-radius: 3px;
+      padding: 5px;
+      font-size: 0.8rem;
+      span {
+        padding: 10px;
+        font-size: 20px;
+        margin: auto;
+      }
+      .forminput {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-around;
+        padding: 2px;
+        font-size: 0.6rem;
+
+        .forminputcolumn {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: flex-end;
+          justify-content: flex-end;
+          flex-wrap: wrap;
+          input {
+            width: 285px;
+            height: 15px;
+            font-size: 0.6rem;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            padding: 5px;
+            margin-left: 5px;
+            background-image: linear-gradient(0deg, #ececec, #9dee95);
+          }
+        }
+      }
+      .formbutton {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 0.7rem;
+        gap: 2px;
+        width: 100%;
+      }
+    }
+    .tracuuWHTable {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(0deg, #afd3d1, #86cfff);
+      -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+      border-radius: 3px;
+    }
+    .nhaplieudiv {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      position: absolute;
+      left:5%;
+      padding: 10px;
+      background-color: #cbe07f;
+      -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.29);
+      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+    }
+    .xuatlieudiv {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      position: absolute;
+      left:5%;
+      padding: 10px;
+      background-color: #e789e3;
+      -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.29);
+      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+    }
+  }
+}

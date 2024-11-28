@@ -1,0 +1,47 @@
+.widgetinspection {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.29);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 100px;
+  margin-top: 5px;
+  .up  {
+    .title {
+      font-weight: bold;
+      font-size: 16px;
+      color: rgb(40, 13, 158);
+    }
+
+  }
+  .middle {
+    .totalNG {
+      font-size: 2rem;
+      font-weight: bold;
+      color: rgb(212, 38, 38);
+    }   
+
+  }
+  .down {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    
+
+    .materialNG {
+      font-size: 20px;
+      font-weight: bold;
+      color: green;
+    }
+    .processNG {
+      font-size: 20px;
+      font-weight: bold;
+      color: red;
+    }
+     
+  }
+}

@@ -1,0 +1,98 @@
+.chatwindow {
+  border-radius: 5px;
+  .open-button {
+    background-color: #555;
+    border-radius: 50%;
+    color: white;
+    padding: 16px 16px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    width: 50px;
+  }
+
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    height: 50%;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.27);
+    background-image: linear-gradient(0deg, rgba(77, 175, 252,1), rgba(159, 212, 254,1));
+    .chat_sidebar  {
+    display: flex;    
+    width: 250px;
+    flex-direction: column;
+    .chatlist {
+      display: flex;
+      flex-direction: column;
+      overflow: scroll;
+    }
+    }
+    .message_window {
+      display: flex;
+      .form-container {
+        .messagebox {
+          display: flex;
+          height: 50%;
+          border: 1px solid black;
+        }
+      }
+    }
+  }
+
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 20px;
+  }
+
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    padding: 15px;
+    outline: none;
+  }
+
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #04aa6d;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover,
+  .open-button:hover {
+    opacity: 1;
+  }
+}

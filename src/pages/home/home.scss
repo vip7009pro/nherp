@@ -1,0 +1,100 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 0px;
+
+  @media only screen and (max-width: 5000px) {
+    .homeContainer {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      width: 100%;
+      height: fit-content;    
+      .outletdiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex: 10;
+        box-sizing: border-box;
+        .animated_div {
+          display: flex;
+          flex-direction: column;
+          .component_element {
+            position: absolute;
+            top: 25px;
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+      .navdiv {
+        display: flex; 
+        z-index: 999999;
+      }
+      .chatroom {
+        display: flex;
+        position: fixed;
+        right: 2%;
+        top: 90vh;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .homeContainer {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: fit-content;
+      .sidebardiv {
+        width: fit-content;
+        position: fixed;
+        left: 10;
+        z-index: 9;
+      }
+      .outletdiv {
+        display: flex;
+        width: 100%;
+        .animated_div {
+          display: flex;
+          flex-direction: column;
+          margin-top: 80px;
+          width: 100%;
+          .component_element {
+            position: absolute;
+            top: 102px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .homeContainer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: fit-content;
+      .sidebardiv {
+        width: fit-content;
+        position: fixed;
+        z-index: 99999;
+
+
+      }
+      .outletdiv {
+        width: 100%;
+        .animated_div {
+          display: flex;
+          flex-direction: column;
+          margin-top: 100px;
+          .component_element {
+            position: absolute;
+            top: "25px";
+          }
+        }
+      }
+    }
+  }
+}
