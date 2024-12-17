@@ -11,7 +11,7 @@ import {
   UserData,
   WEB_SETTING_DATA,
 } from "../../api/GlobalInterface";
-const startCPN: string = "NHATHAN";
+const startCPN: string = "PVN";
 console.log("protocol", window.location.protocol);
 const protocol = window.location.protocol.startsWith("https")? "https": "http";
 const main_port = protocol === "https" ? "5014" : "5013";
@@ -153,8 +153,8 @@ const initialState: GlobalInterface = {
       outletBackground: `rgba(159, 212, 254,1)`,
     },
     PVN: {
-      /* backgroundImage: `linear-gradient(90deg, rgba(254,255,23,1) 0%, rgba(235,242,144,0.9920343137254902) 47%, rgba(255,241,134,1) 100%)`, */
-      backgroundImage: `linear-gradient(90deg, hsla(0, 0%, 74%, 1) 0%, hsla(60, 23%, 95%, 1) 100%)`,
+      backgroundImage: `linear-gradient(90deg, rgba(254,255,23,1) 0%, rgba(235,242,144,0.9920343137254902) 47%, rgba(255,241,134,1) 100%)`,
+      /* backgroundImage: `linear-gradient(90deg, hsla(0, 0%, 74%, 1) 0%, hsla(60, 23%, 95%, 1) 100%)`, */
     },
   },
 };
